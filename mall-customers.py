@@ -121,15 +121,18 @@ elif menu == "Petunjuk":
       ```
 
     ### 3. Navigasi Menu
-    Aplikasi ini memiliki dua menu utama yang dapat diakses melalui sidebar:
+    Aplikasi ini memiliki tiga menu utama yang dapat diakses melalui sidebar:
 
     #### A. Beranda
+    - **Tampilan Beranda**: pada bagian beranda ini berisi tentang judul aplikasi ini dan pembuat aplikasi dimana tertera dibuat oleh Kelompok 2, serta program studi dan nama universitas.
+    
+    #### B. Clustering
     - **Isi Dataset**: Menampilkan dataset yang digunakan untuk analisis clustering.
     - **Mencari Elbow**: Menampilkan grafik Elbow untuk menentukan jumlah cluster yang optimal. Grafik ini membantu Anda menemukan titik "elbow" yang menunjukkan jumlah cluster yang paling sesuai untuk data.
     - **Plot Cluster**: Setelah Anda memilih jumlah cluster, aplikasi akan menampilkan scatter plot yang mengilustrasikan hasil clustering menggunakan metode K-Means.
     - **Jumlah K**: Anda dapat menentukan jumlah cluster K yang akan digunakan dalam algoritma K-Means dengan menggunakan slider yang tersedia di sidebar.
 
-    #### B. Petunjuk
+    #### C. Petunjuk
     - **Petunjuk Penggunaan**: Menampilkan panduan penggunaan aplikasi termasuk cara memulai klasifikasi dan informasi penting lainnya.
 
     ### 4. Langkah-langkah Penggunaan
